@@ -1,0 +1,16 @@
+package di.pojo;
+
+public class Car {
+	
+	private Tire tire;
+	
+	public Car() {
+		
+	}
+	
+	public void printTireBrand() {
+		System.out.println("장착된 타이어 : " + tire.getBrand());
+	}
+
+	
+}

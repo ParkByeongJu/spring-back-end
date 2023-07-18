@@ -1,0 +1,17 @@
+package di.pojo;
+
+public class Car {
+	
+	private Tire tire;
+	
+	public Car() {
+//		tire = new KumhoTire();
+		tire = new HankookTire();
+	}
+	
+	public void printTireBrand() {
+		System.out.println("장착된 타이어 : " + tire.getBrand());
+	}
+
+	
+}

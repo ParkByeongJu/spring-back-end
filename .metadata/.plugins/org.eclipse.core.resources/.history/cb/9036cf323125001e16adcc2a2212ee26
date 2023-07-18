@@ -1,0 +1,9 @@
+package di.xml;
+
+public class Car {
+
+	public Car() {
+		System.out.println("Car() 생성자 호출...");
+	}
+	
+}

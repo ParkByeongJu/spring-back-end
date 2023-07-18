@@ -1,0 +1,11 @@
+package di.pojo;
+
+public class Car {
+	
+	private HankookTire tire;
+	
+	public Car() {
+		tire = new HankookTire();
+	}
+	
+}

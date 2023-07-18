@@ -1,0 +1,8 @@
+package di.xml;
+
+public class Car {
+
+	public Car() {
+	}
+	
+}

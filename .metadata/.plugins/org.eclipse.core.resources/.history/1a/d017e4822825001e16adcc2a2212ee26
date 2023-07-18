@@ -1,0 +1,15 @@
+package di.pojo;
+
+
+public class DIMain {
+	
+	public static void main(String[] args) {
+		
+		HankookTire hankook = new HankookTire();
+		
+		Car c = new Car(hankook);
+		c.printTireBrand();
+		
+	}
+
+}
