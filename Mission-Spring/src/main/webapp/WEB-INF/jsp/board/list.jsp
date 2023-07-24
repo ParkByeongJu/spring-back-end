@@ -18,14 +18,16 @@
 			<th>등록일</th>
 		</tr>
 	<c:forEach items="${ boardList }" var="board">
-		<tr>
-			<td>${ board.no }</td>
-			<td>
-				<a href="${ pageContext.request.contextPath }/board/detail?no=${ board.no }">${ board.title }</a> 
-			</td>
-			<td>${ board.writer }</td>
-			<td>${ board.regDate }</td>
-		</tr>
+	<tr>
+		<td>${ board.no }</td>
+		<td>
+			<a href="${ pageContext.request.contextPath }/board/detail?no=${ board.no }">
+				${ board.title }
+			</a>
+		</td>
+		<td>${ board.writer }</td>
+		<td>${ board.regDate }</td>
+	</tr>
 	</c:forEach>
 	</table>
 </body>
