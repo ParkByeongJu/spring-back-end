@@ -10,12 +10,12 @@ import kr.co.mlec.member.vo.MemberVO;
 public class MemberServiceImpl implements MemberService {
 
 	@Autowired
-	private MemberDAO memberDAO;
+	private MemberDAO memberDao;
 	
 	@Override
 	public MemberVO login(MemberVO member) {
-		
-		return memberDAO.login(member);
+
+		return memberDao.login(member);
 	}
 
 }

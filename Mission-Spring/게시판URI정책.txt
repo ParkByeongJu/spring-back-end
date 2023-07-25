@@ -12,3 +12,16 @@
 회원가입폼		GET		/member/register
 전체회원리스트	GET		/member
 특정회원검색	GET		/member/hong
+댓글등록		POST	/reply				status code 200 / 500, 404 코드 전송
+댓글리스트조회	GET		/reply/게시판번호		해당게시물의 댓글정보가 json객체로 전송
+					/reply/42
+					/reply/4
+
+
+
+
+
+
+
+
+
